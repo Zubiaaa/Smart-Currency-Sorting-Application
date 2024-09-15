@@ -87,10 +87,14 @@ Hint: You should ensure that all user input values are validated. You should als
 Create the following two classes: CoinSorterGUI and a test class testCoinSorterGUI. The user should be presented with a graphical menu based on the structure of the textual menu created in Part A.2. You should make any changes necessary to the CoinSorterGUI class in order to meet the requirements of Part B.
 
  ![alt text](example_GUI_menu_design.png)
-Figure 1: Example GUI menu design.
+    Figure 1: Example GUI menu design.
+    
 Figure 1 shows an example of a graphical menu (this is provided as an illustration only; you are not required to follow this design). You can use either Java Swing (JOptionPane) or JavaFX. The technology choice has no impact on the marking process; you should ensure that the GUI components are:
 •	Appropriately selected for the intended purpose e.g. you shouldn’t use checkboxes for menu options. 
 •	You should investigate and implement a range of GUI components e.g. the GUI shouldn’t only consist of a single textbox duplicated across all options.
 •	All information and options are clearly indicated in the design e.g. the user can intuitively understand what, where and how information should be input/output.
 
+#### 2.	Functionality/Testing: 
+Show evidence that ALL the methods in the CoinSorterGUI class and the options in the GUI menu are individually tested and that the testCoinSorterGUI class can be compiled and run from the command line.
 
+Hint: You should ensure that all user input values are validated. You should also investigate boundary testing.

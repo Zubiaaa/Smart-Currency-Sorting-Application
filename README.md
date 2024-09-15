@@ -26,21 +26,37 @@ The program should also have several utility functions; all user input should be
 Create a new class called CoinSorter using the class diagram below:
 
 CoinSorter
+
 -currency : String
+
 -minCoinIn: int
+
 -maxCoinIn : int
+
 -coinList : List<Integer>
+
 +CoinSorter(String, int, int, List< Integer >)
+
 +CoinSorter()
+
 +setCurrency(String)
+
 +setMinCoinIn(int)
+
 +setMaxCoinIn(int)
+
 +getCurrency(): String
+
 +getMinCoinIn (): int
+
 +getMaxCoinIn (): int
+
 +printCoinList(): String
+
 +coinCalculator(int, int) : String
+
 +multiCoinCalculator(int, int) : String
+
 +displayProgramConfigs() : String
 
 CoinSorter(String, int, int, List<Integer>) 
@@ -75,19 +91,31 @@ DisplayProgramConfigs() : String
 Create a test class called testCoinSorter. Create a main method, which should create and initialise a CoinSorter object. You should set the default details within the code, following the specifications in the brief. After initialising a CoinSorter object, the user should be presented with the following menu:
 
 ***Coin Sorter - Main Menu***
+
 1 - Coin calculator
+
 2 - Multiple coin calculator
+
 3 - Print coin list
+
 4 - Set details
+
 5 - Display program configurations
+
 6 - Quit the program
+
 These menu choices should be repeated until the user quits. Option 1 and 2 should prompt the user to enter some values, where the input values should be validated before being passed to the relevant methods in order to generate some results.
 When Option 4 is chosen, the user should be presented with the following sub-menu allowing them to interactively set the following details for the program:
 ***Set Details Sub-Menu***
+
 1 - Set currency
+
 2 - Set minimum coin input value
+
 3 - Set maximum coin input value
+
 4 - Return to main menu
+
 These menu choices should be repeated until the user chooses Option 4 in the Sub-Menu and returns to the main menu. Again, all user input values should be validated.
 
 #### 3.	Functionality/Testing: 
@@ -99,11 +127,16 @@ Hint: You should ensure that all user input values are validated. You should als
 #### 1.	Graphical Menu: 
 Create the following two classes: CoinSorterGUI and a test class testCoinSorterGUI. The user should be presented with a graphical menu based on the structure of the textual menu created in Part A.2. You should make any changes necessary to the CoinSorterGUI class in order to meet the requirements of Part B.
 
-![alt text](example_GUI_menu_design.png) Figure 1: Example GUI menu design.
-    
+![alt text](example_GUI_menu_design.png) 
+
+Figure 1: Example GUI menu design.
+
 Figure 1 shows an example of a graphical menu (this is provided as an illustration only; you are not required to follow this design). You can use either Java Swing (JOptionPane) or JavaFX. The technology choice has no impact on the marking process; you should ensure that the GUI components are:
+
 •	Appropriately selected for the intended purpose e.g. you shouldn’t use checkboxes for menu options. 
+
 •	You should investigate and implement a range of GUI components e.g. the GUI shouldn’t only consist of a single textbox duplicated across all options.
+
 •	All information and options are clearly indicated in the design e.g. the user can intuitively understand what, where and how information should be input/output.
 
 #### 2.	Functionality/Testing: 
